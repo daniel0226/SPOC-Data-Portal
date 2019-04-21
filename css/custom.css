@@ -1,0 +1,30 @@
+/* ~~~ top.html ~~~ */
+#TopHeader{
+	margin-right: 5%;
+	margin-left: 5%;
+	padding: 5pt;
+}
+#TopHeader > div > a{
+	color: white;
+}
+#TopHeader > ul > li > a{
+	color: white;
+}
+
+/* ~~~ bottom.html ~~~ */
+#Footer{
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+	background-color: black;
+	color: white;
+    text-align: center;
+}
+
+
+/* ~~~ Login.php ~~~ */
+#login
+{
+	margin: auto;
+}
+
