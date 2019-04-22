@@ -38,6 +38,9 @@
 }
 
 /* ~~~ Login.php ~~~ */
+#loginError{
+	color: red;
+}
 .container{
 	margin: auto;
 	width: 40%;
