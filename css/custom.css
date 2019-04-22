@@ -22,7 +22,20 @@
 	color: white;
     text-align: center;
 }
+/* ~~~ AboutUs.php ~~~ */
+.containerAboutUs{
+	position: relative;
+	margin: auto;
+}
 
+.containerAboutUs > div{
+	margin-bottom: 10px;
+}
+
+.containerAboutUs > div > h1, h2, p{
+	float: left;
+	text-align: left;
+}
 
 /* ~~~ Login.php ~~~ */
 .container{
@@ -31,7 +44,7 @@
 	height: 50%;
 	text-align: center
 }
-.containerLoginr{
+.containerLogin{
 	position: relative;
 	margin: auto;
 }
