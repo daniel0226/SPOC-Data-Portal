@@ -19,7 +19,7 @@
         </div>
         <div class ="row">
             <a href="../php/RecoverPassword.php">Recover Password</a>
-            <input type="checkbox" onclick="showPassword()">
+            <input type="checkbox" onclick="showPassword(this)">
             <p class="floatRight">Show Password</p>
         </div>
         <div class ="row">

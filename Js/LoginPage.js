@@ -1,17 +1,17 @@
-function showPassword()
+function showPassword(showPassCheckBox)
 {
-    var PasswordField = document.getElementById("PasswordField");
-    if(PasswordField.type == "password")
+    var PasswordField = document.getElementById("LoginPassword");
+    if(showPassCheckBox.checked)
     {
         PasswordField.type = "text";
-    }
-    else
-    {
+    }else{
         PasswordField.type = "password";
     }
+    return;
 }
 function validateLogin()
 {
+    //alert("test");
     var Username = document.getElementById("LoginUser").value;
     var Username = document.getElementById("LoginPassword").value;
 

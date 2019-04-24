@@ -45,7 +45,6 @@
 .containerLogin{
 	position: relative;
 	margin: auto;
-	margin: auto;
 	width: 40%;
 	height: 50%;
 	text-align: center
@@ -92,4 +91,13 @@
 
 
 
-
+/* ~~~ RawData.php ~~~ */
+.DownloadPage{
+	position: relative;
+	margin: auto;
+	width: 40%;
+	height: 50%;
+}
+.DownloadPage > a{
+	font-size: 15pt;
+}
