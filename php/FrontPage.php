@@ -1,5 +1,4 @@
 
 <?php include("../html/top.html"); ?>
-<p> FRONT PAGE </p>
-
+<?php include("../html/body.html"); ?>
 <?php include("../html/bottom.html"); ?>
