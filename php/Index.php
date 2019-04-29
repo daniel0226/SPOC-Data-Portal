@@ -16,6 +16,11 @@
     $PhotosDB = "SELECT * FROM photos";
     $BlogPostsDB = "SELECT * FROM blog_posts";
     $ArchiveDB = "SELECT * FROM archive_links";
+
+    $Users = mysqli_query($db,$UsersDB);
+    $Photos = mysqli_query($db,$PhotosDB);
+    $BlogPosts = mysqli_query($db,$BlogPostsDB);
+    $Archive = mysqli_query($db,$ArchiveDB);
 ?>
 
 <?php include("../html/body.html"); ?>
