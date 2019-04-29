@@ -1,12 +1,9 @@
 
 <?php include("../html/top.html"); ?>
-<form id="loginForm" enctype="multipart/form-data" method=get onsubmit="validateLogin();return false">
+<form id="loginForm" enctype="multipart/form-data" method="POST" action="Login-Submit.php">
     <div class = "container containerLogin">
         <div class="row">
             <h1><strong>Log in</strong></h1>
-        </div>
-        <div class ="row">
-            <p id="loginError"></p>
         </div>
         <div class ="row">
             <input type="text" id="LoginUser" placeholder="User Name" name="Username" required>

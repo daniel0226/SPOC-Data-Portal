@@ -17,12 +17,11 @@ function validateLogin()
 
     var loginSuccess = false;
     
-    //Need SQL Database or text file that stores valid login information
+    //Connect to MySql B
 
     if(loginSuccess)
     {
-        // Do we go to home page? Successful login page?
-        window.location = "../php/FrontPage.php";
+        window.location = "../php/Login-Submit.php";
     }else{
         document.getElementById("loginError").innerHTML = "Incorrect Username or Password.";
     }

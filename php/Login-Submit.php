@@ -1,30 +1,34 @@
 <?php include("../html/top.html"); ?>
 <?php
-   /*
-    function start()
+
+    $DB_SERVER = 'localhost:3306';
+    $DB_USERNAME = 'Test';
+    $DB_PASSWORD = '200149907Dk!';
+    $DB_DATABASE = 'termproject';
+    $db = mysqli_connect($DB_SERVER,$DB_USERNAME,$DB_PASSWORD,$DB_DATABASE);
+
+    session_start();
+
+    $myusername = mysqli_real_escape_string($db,$_POST['Username']);
+    $mypassword = mysqli_real_escape_string($db,$_POST['Password']); 
+    //echo "Your username after escaping: {$myusername}<br>";
+    //echo "Your password after scaping and MD5: {$mypassword}<br>";
+
+    $sql = "SELECT * FROM users WHERE username = '$myusername' and password = '$mypassword'";
+    $result = mysqli_query($db,$sql);
+
+    if(mysqli_num_rows($result) == 1)
     {
-        $Username = $_GET["Username"];
-        $Password = $_GET["Password"];
-   
-        validateLogin($Username, $Password);
+        $row = mysqli_fetch_array($result);
+        $UN = $row['username'];
+        $PW = $row['password'];
+        $EN = $row['enabled'];
+        $EMAIL = $row['email'];
+        header("Location: ../php/RawData.php");
+        //echo "$UN $PW $EN $EMAIL";
+    }else{
+        header("Location: ../php/Login.php");
     }
-
-    function validateLogin($Username, $Password)
-    {
-        // Both fields are required, so we don't have to worry about empty string
-        $valid = false;
-
-        // Need SQL database or textfile to store logins so we can check.
-        // Check if login is correct
-        // $valid = true
-        
-        if($valid){
-            return;
-        }else{
-            header("Location: ../php/Login.php");
-        }
-    }
-
-    start();*/
+ 
 ?>
 <?php include("../html/bottom.html"); ?>
