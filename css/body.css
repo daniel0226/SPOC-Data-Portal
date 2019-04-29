@@ -156,3 +156,9 @@ body{margin-top:20px;}
   top: 0;
   transform: none;
 }
+
+.p-left {
+  margin-left: auto !important;
+  float: inline-start;
+
+}
