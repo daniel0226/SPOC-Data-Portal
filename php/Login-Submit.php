@@ -27,7 +27,10 @@
         header("Location: ../php/RawData.php");
         //echo "$UN $PW $EN $EMAIL";
     }else{
-        header("Location: ../php/Login.php");
+        $message = "Incorrect username or password";
+        echo "<script type='text/javascript'>alert('$message');</script>";
+        echo "<script type='text/javascript'>window.location='../php/login.php';</script>";
+        //header("Location: ../php/Login.php");
     }
  
 ?>
