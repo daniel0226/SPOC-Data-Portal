@@ -1,4 +1,6 @@
-body{margin-top:20px;}
+body{ 
+	margin-top:20px;
+}
 
 .carbon-example {
   
@@ -165,4 +167,11 @@ body{margin-top:20px;}
 .row {
 margin : auto;
 padding : 0;
+}
+.footer {
+  background-color: #777;
+  padding : 20px 0 20px 0;
+  text-align: center;
+  color: white;
+  margin-top : 50px;
 }
