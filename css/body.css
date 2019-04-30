@@ -1,9 +1,9 @@
 body{margin-top:20px;}
 
 .carbon-example {
-  padding: 8px;
+  
   background-color: #fff;
-  width: 295px;
+  width: 400px;
   box-sizing: border-box;
   border-radius: 6px;
   -webkit-box-align: start;
@@ -18,8 +18,8 @@ body{margin-top:20px;}
 }
 
 .carbon-example img {
-  margin-right: 9px;
-  max-width: 125px;
+  
+  max-width: 150px;
 }
 
 .carbon-example .inner-wrapper {
@@ -28,16 +28,17 @@ body{margin-top:20px;}
 
 .carbon-example .inner-wrapper p {
   font-size: 12px;
-  line-height: 1.33;
-  margin: 8px 0;
+  margin-left : -150px;
+  font-weight: bold;
 }
 
 .carbon-example .inner-wrapper p.fine-print {
   font-size: 8px;
   color: #C5CDD0;
-  line-height: 1.25;
-  text-transform: uppercase;
   font-weight: 500;
+  margin : auto;
+  margin-top : 50px;
+  margin-right : 20px;
 }
 
 .flex-wrapper {
@@ -160,5 +161,8 @@ body{margin-top:20px;}
 .p-left {
   margin-left: auto !important;
   float: inline-start;
-
+}
+.row {
+margin : auto;
+padding : 0;
 }
