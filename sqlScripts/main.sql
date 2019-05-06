@@ -27,14 +27,10 @@ create table photos(
 create table blog_posts(
 	id int auto_increment not null,
 	post_title varchar(128) not null,
-	post_date datetime not null,
+	post_date varchar(256) not null,
 	post_text varchar(16384),
-	photo int,
 
-	primary key(id),
-
-	foreign key (photo) references photos(id)
-	on delete set null
+	primary key(id)
 );
 
 create table archive_links(

@@ -1,3 +1,8 @@
+body{
+	background-color: #f5f2e8;
+	padding-bottom: 4%;
+}
+
 /* ~~~ top.html ~~~ */
 #TopHeader{
 	margin-right: 5%;
@@ -12,11 +17,10 @@
 
 /* ~~~ bottom.html ~~~ */
 #Footer{
-	position: absolute;
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 5%;
+	height: 3%;
 	color: black;
     text-align: center;
 }
@@ -24,7 +28,7 @@
 /* ~~~ Index.php ~~~ */
 #main-header{
 	color: black;
-	margin-top: -15px;
+
 }
 #title{
 	font-weight: bolder;
@@ -36,9 +40,55 @@
 	margin-top: 10px
 }
 
-#title-3{
+.title-3{
 	font-weight: bolder;
 }
+
+#main-container > .row{
+	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.tile{
+	height: 250px;
+	box-shadow: 2px 2px 5px 0 grey;
+}
+
+.photo-container{
+	display: inline-block;
+	width: 40%;
+	height: 100%;
+	overflow-x:hidden;
+}
+
+.text-container{
+	display: inline-block;
+	position: absolute;
+	width: 57%;
+	height: 100%;
+	padding-left: 1%;
+	padding-right: 2%;
+}
+
+.text-container > h3, .text-container > p{
+
+}
+
+.blog-photo{
+	height: 100%;
+}
+
+.modal-header{
+	text-align: center;
+}
+
+.modal-img{
+	display: block;
+	margin: 0px auto;
+}
+
 
 /* ~~~ AboutUs.php ~~~ */
 .containerAboutUs{
