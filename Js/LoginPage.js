@@ -1,3 +1,52 @@
+window.onload = function()
+{
+
+    var passwordRequest = document.getElementById("passwordLink");
+    var accessRequest = document.getElementById("accessLink");
+    var modalPW = document.getElementById("passwordModal");
+    var modalRA = document.getElementById("accessModal");
+    var closeModalPW = document.getElementById("closeModalPW");
+    var closeModalRA = document.getElementById("closeModalRA");
+
+    passwordRequest.onclick = function()
+    {
+        modalPW.style.display = "block";
+    }
+    accessRequest.onclick = function()
+    {
+        modalRA.style.display = "block";
+    }
+    closeModalPW.onclick = function()
+    {
+        modalPW.style.display = "none";
+    }
+    closeModalRA.onclick = function()
+    {
+        modalRA.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modalPW) 
+        {
+            modalPW.style.display = "none";
+        }
+        if (event.target == modalRA) 
+        {
+            modalRA.style.display = "none";
+        }
+    }
+}
+
+function accessModal()
+{
+    var accessRequest = document.getElementById("accessLink");
+    var modal = document.getElementById("passwordModal");
+    var closeModal = document.getElementById("closeModal");
+    accessRequest.onclick = function()
+    {
+        modal.style.display = "block";
+    }
+}
+
 function showPassword(showPassCheckBox)
 {
     var PasswordField = document.getElementById("LoginPassword");
@@ -9,6 +58,8 @@ function showPassword(showPassCheckBox)
     }
     return;
 }
+
+/*
 function validateLogin()
 {
     //alert("test");
@@ -26,3 +77,4 @@ function validateLogin()
         document.getElementById("loginError").innerHTML = "Incorrect Username or Password.";
     }
 }
+*/

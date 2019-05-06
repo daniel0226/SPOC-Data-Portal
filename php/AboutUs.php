@@ -20,7 +20,7 @@
         <h2><strong>Contact</strong></h2>
     </div>
     <div class="row">
-        <p><strong>User1: </strong>999-999-999</p>
+        <p><strong>James Roach </strong>(770) - 845 - 4787</p>
     </div>
 </div>
 

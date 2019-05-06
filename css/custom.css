@@ -109,6 +109,13 @@ body{
 #loginError{
 	color: red;
 }
+.request{
+	position: relative;
+	margin: auto;
+	width: 50%;
+	height: 50%;
+	text-align: center
+}
 
 .containerLogin{
 	position: relative;
@@ -156,8 +163,6 @@ body{
 {
 	float: right;
 }
-
-
 
 /* ~~~ RawData.php ~~~ */
 .DownloadPage{

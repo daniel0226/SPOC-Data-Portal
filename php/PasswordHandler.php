@@ -46,9 +46,9 @@ $mail->AddAddress($AdminEmail);
 $mail->Send();
 
 ?>
-    <div class = "containerLogin">
+    <div class = "request">
         <div class="row">
-            <h1><strong>Your request was sent to an admin.</strong></h1>
+            <h1><strong>Your password request was sent to an admin.</strong></h1>
         </div>
     </div>
 <?php include("../html/bottom.html"); ?>
