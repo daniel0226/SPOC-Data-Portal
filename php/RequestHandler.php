@@ -8,7 +8,7 @@
         require_once('../php/Mailer/src/Exception.php');
         require_once('../php/Mailer/src/SMTP.php');
         
-        $name = $_POST['Name'];
+        $name = $_POST['FullName'];
         $email = $_POST['Email'];
 
         $subject = "$name requests SPOC raw data";
@@ -44,7 +44,7 @@
     ?>
 
     
-    <div class = "containerLogin">
+    <div class = "request">
         <div class="row">
             <h1><strong>Your request was sent to an admin.</strong></h1>
         </div>
