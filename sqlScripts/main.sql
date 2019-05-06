@@ -13,7 +13,7 @@ create table users(
 	primary key(id)
 );
 
-/*Table for photo info. Actual photo data is stored in 
+/*Table for photo info. Actual photo data is stored in
 file system not in data base*/
 create table photos(
 	id int auto_increment not null,
@@ -40,5 +40,7 @@ create table blog_posts(
 create table archive_links(
 	id int auto_increment not null,
 	link_text varchar(256) not null,
-	link_link varchar(1028) not null
+	link_link varchar(1028) not null,
+
+	primary key(id)
 );

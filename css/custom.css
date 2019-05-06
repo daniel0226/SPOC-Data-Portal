@@ -2,13 +2,12 @@
 #TopHeader{
 	margin-right: 5%;
 	margin-left: 5%;
-	padding: 5pt;
 }
 #TopHeader > div > a{
-	color: white;
+	color: black;
 }
 #TopHeader > ul > li > a{
-	color: white;
+	color: black;
 }
 
 /* ~~~ bottom.html ~~~ */
@@ -18,10 +17,29 @@
 	left: 0;
 	width: 100%;
 	height: 5%;
-	background-color: black;
-	color: white;
+	color: black;
     text-align: center;
 }
+
+/* ~~~ Index.php ~~~ */
+#main-header{
+	color: black;
+	margin-top: -15px;
+}
+#title{
+	font-weight: bolder;
+	font-size: 16.5vh;
+	vertical-align: middle;
+}
+
+#title-2{
+	margin-top: 10px
+}
+
+#title-3{
+	font-weight: bolder;
+}
+
 /* ~~~ AboutUs.php ~~~ */
 .containerAboutUs{
 	position: relative;
@@ -32,7 +50,7 @@
 	margin-bottom: 10px;
 }
 
-.containerAboutUs > div > h1, h2, p{
+.containerAboutUs > div > h1, .containerAboutUs > div > h2, .containerAboutUs > div > p{
 	float: left;
 	text-align: left;
 }
@@ -53,7 +71,7 @@
 	margin-bottom: 10px;
 }
 .containerLogin > div > input[type=text], input[type=password]{
-	background-color: #F7F7F7;	
+	background-color: #F7F7F7;
 	outline: none;
 	border-width: 0px;
 	width: 100%;

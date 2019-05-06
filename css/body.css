@@ -1,9 +1,9 @@
-body{ 
+body{
 	margin-top:20px;
 }
 
 .carbon-example {
-  
+
   background-color: #fff;
   width: 400px;
   box-sizing: border-box;
@@ -20,7 +20,7 @@ body{
 }
 
 .carbon-example img {
-  
+
   max-width: 150px;
 }
 
