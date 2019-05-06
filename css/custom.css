@@ -1,6 +1,6 @@
-body{
+html, body{
 	background-color: #f5f2e8;
-	padding-bottom: 4%;
+	height: 100%;
 }
 
 /* ~~~ top.html ~~~ */
@@ -87,6 +87,48 @@ body{
 .modal-img{
 	display: block;
 	margin: 0px auto;
+}
+
+/* ~~~ Map.php ~~~ */
+#map-div{
+	display: inline-block;
+	background-size:100% !important;
+	width: 100%;
+	height: calc(100% - 90px);
+	margin-top: 50px;
+}
+
+#spoc-data-top{
+	font-weight: bolder;
+	border-bottom: 1px solid lightgray;
+}
+#spoc-data-top > a {
+	color: black;
+}
+
+#collapseSpoc{
+	padding-left: 2px;
+}
+
+#spoc-data-container{
+	margin-left: 3%;
+	margin-top: 10px;
+	width: 115px;
+	padding-left: 5px;
+	padding-right: 3px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #f5f2e8;
+}
+
+.card-header:after {
+    font-family: 'FontAwesome';
+    content: "\f068";
+    float: right;
+}
+.card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067";
 }
 
 
