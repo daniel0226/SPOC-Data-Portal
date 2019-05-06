@@ -92,8 +92,13 @@ body{
 
 /* ~~~ AboutUs.php ~~~ */
 .containerAboutUs{
-	position: relative;
-	margin: auto;
+	margin-top: 5%;
+	margin-left: 6%;
+	margin-right: 6%;
+	background-color: lightgray;
+	border-radius: 5px;
+	overflow: auto;
+	padding: 10px;
 }
 
 .containerAboutUs > div{

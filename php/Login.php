@@ -33,7 +33,7 @@
                             <div>
                                 <h1>Recover Password</h1>
                                 <p> If you have a valid account with SPOC, your request
-                                    will be sent to an Administrator. You will receive your 
+                                    will be sent to an Administrator. You will receive your
                                     password via email.
                                 </p>
                             </div>
@@ -54,7 +54,7 @@
                         </div>
                     </form>
                 </div>
-            </div> 
+            </div>
             <input type="checkbox" onclick="showPassword(this)">
             <p class="floatRight">Show Password</p>
         </div><!-- Recover Password -->
