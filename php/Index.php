@@ -23,13 +23,11 @@
     $UsersDB = "SELECT * FROM users";
     $PhotosDB = "SELECT * FROM photos";
     $BlogPostsDB = "SELECT * FROM blog_posts";
-    $ArchiveDB = "SELECT * FROM archive_links";
 
     //store in session variables so we can access on any page
     $_SESSION["user"] = mysqli_query($db,$UsersDB);
     $_SESSION["photos"] = mysqli_query($db,$PhotosDB);
     $_SESSION["blogPosts"] = mysqli_query($db,$BlogPostsDB);
-    $_SESSION["archive"] = mysqli_query($db,$ArchiveDB);
     $_SESSION["blognum"] = mysqli_num_rows($_SESSION["blogPosts"]);
 
     //test

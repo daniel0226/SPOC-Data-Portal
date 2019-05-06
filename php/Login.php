@@ -1,5 +1,6 @@
 
-<?php include("../html/top.html"); ?>
+<?php session_start();
+include("../html/top.html"); ?>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">

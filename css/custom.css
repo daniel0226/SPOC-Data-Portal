@@ -15,6 +15,13 @@ html, body{
 	color: black;
 }
 
+#brand-pic{
+	float: left;
+	height: 20px;
+	margin-top: 14px;
+	margin-right: 2px;
+}
+
 /* ~~~ bottom.html ~~~ */
 #Footer{
 	bottom: 0;
@@ -28,7 +35,7 @@ html, body{
 /* ~~~ Index.php ~~~ */
 #main-header{
 	color: black;
-
+	margin-top: -20px;
 }
 #title{
 	font-weight: bolder;
@@ -95,7 +102,6 @@ html, body{
 	background-size:100% !important;
 	width: 100%;
 	height: calc(100% - 90px);
-	margin-top: 50px;
 }
 
 #spoc-data-top{
@@ -111,8 +117,9 @@ html, body{
 }
 
 #spoc-data-container{
-	margin-left: 3%;
-	margin-top: 10px;
+	left: 85%;
+	bottom: 120%;
+	position: relative;
 	width: 115px;
 	padding-left: 5px;
 	padding-right: 3px;
@@ -131,10 +138,17 @@ html, body{
     content: "\f067";
 }
 
+#map-nav {
+	background-color: #f5f2e8;
+	margin-bottom: 0;
+}
+#pass-title {
+	margin-top: -15px;
+}
 
 /* ~~~ AboutUs.php ~~~ */
 .containerAboutUs{
-	margin-top: 5%;
+	margin-top: -16px;
 	margin-left: 12%;
 	margin-right: 12%;
 	overflow: auto;

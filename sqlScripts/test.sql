@@ -12,3 +12,9 @@ insert into blog_posts (post_title, post_date, post_text) values ("Sappelo Islan
 insert into blog_posts (post_title, post_date, post_text) values ("North Georgia Farmland", "April 15, 2019", "Here is a hyper spectral image of farmland just outside of Athens Georgia. This Image is a good example of how different kinds of vegetation look extremely different in the near infared band. Researchers at UGA will use data like this to help farmers protect the environment.");
 insert into blog_posts (post_title, post_date, post_text) values ("Oconee River", "May 1, 2019", "This is a hyper spectral photo of the oconee river as it runs south of athens. The red and green areas are human structures, which reflect infared light very differently than vegetation");
 insert into blog_posts (post_title, post_date, post_text) values ("Appalachain Foothills", "March 23, 2019", "This is a hyper spectral of the north georgia foothills. The spectral bands used in this image were choosen to distinguish between different soil and geology types");
+
+insert into archive_links (link_link, link_text) values ("#", "Raw data 1");
+insert into archive_links (link_link, link_text) values ("#", "Raw data 2");
+insert into archive_links (link_link, link_text) values ("#", "Raw data 3");
+insert into archive_links (link_link, link_text) values ("#", "Raw data 4");
+insert into archive_links (link_link, link_text) values ("#", "Raw data 5");

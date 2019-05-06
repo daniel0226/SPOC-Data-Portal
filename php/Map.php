@@ -34,9 +34,10 @@
 </head>
 
 <body onload="load()">
-    <nav class="navbar navbar-fixed-top">
+    <nav id="map-nav" class="navbar fixed-top">
         <div class="container-fluid " id="TopHeader">
             <div class="navbar-header">
+				<img id="brand-pic" src="../img/SPOC_patch.png">
                 <a class="navbar-brand" href="../php/Index.php">UGA SSRL</a>
             </div>
             <ul class="nav navbar-nav navbar-right">
@@ -62,20 +63,19 @@
         </div>
     </nav>
 <div  id="map-div"></div>
-<div id="passes"></div>
-
-<!--<div id="map-div">
-	<div id="spoc-data-container" class="card">
-		<div id="spoc-data-top" class="card-header collapsed" data-toggle="collapse" href="#collapseSpoc">
-			<a class="card-title">
-				SPOC
-			</a>
-		</div>
-		<div id="collapseSpoc" class="card-body collapse">
-			test
-		</div>
+<h3 id="pass-title" class="title-3 text-center">UGA Ground Station Passes</h3>
+<div id="passes">
+</div>
+<!--<div id="spoc-data-container" class="card">
+	<div id="spoc-data-top" class="card-header collapsed" data-toggle="collapse" href="#collapseSpoc">
+		<a class="card-title">
+			SPOC
+		</a>
 	</div>
-</div>-->
+	<div id="collapseSpoc" class="card-body collapse">
+		test
+	</div>-->
+</div>
 
 
 

@@ -1,16 +1,15 @@
-<?php include("../html/top.html"); ?>
+<?php session_start();
+ include("../html/top.html"); ?>
 <?php
 
     $DB_SERVER = 'localhost:3306';
-    $DB_USERNAME = 'Test';
-    $DB_PASSWORD = '200149907Dk!';
+    $DB_USERNAME = 'root';
+    $DB_PASSWORD = '1234';
     $DB_DATABASE = 'termproject';
     $db = mysqli_connect($DB_SERVER,$DB_USERNAME,$DB_PASSWORD,$DB_DATABASE);
 
-    session_start();
-
     $myusername = mysqli_real_escape_string($db,$_POST['Username']);
-    $mypassword = mysqli_real_escape_string($db,$_POST['Password']); 
+    $mypassword = mysqli_real_escape_string($db,$_POST['Password']);
     //echo "Your username after escaping: {$myusername}<br>";
     //echo "Your password after scaping and MD5: {$mypassword}<br>";
 
@@ -29,9 +28,9 @@
     }else{
         $message = "Incorrect username or password";
         echo "<script type='text/javascript'>alert('$message');</script>";
-        echo "<script type='text/javascript'>window.location='../php/login.php';</script>";
+        echo "<script type='text/javascript'>window.location='../php/Login.php';</script>";
         //header("Location: ../php/Login.php");
     }
- 
+
 ?>
 <?php include("../html/bottom.html"); ?>
