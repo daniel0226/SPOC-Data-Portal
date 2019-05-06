@@ -17,6 +17,17 @@
                 engagement of the local Athens community with reserach done at the University of Georgia.
             </p>
         </div>
+        <br/>
+        <div id="team-info">
+            <h1><strong>UGA Small Satellite Research Laboratory</strong></h1>
+        </div>
+        <div >
+            <p> The lab is an undergraduate led research lab, mentored by faculty, with the goals of launching small, inexpensive satellites into space for gathering scientific data and providing experiential learning opportunities for University of Georgia students. Currently 54 undergraduates from all over campus (geography, physics, engineering, mathematics, computer science, marine science, design, and management) lead and operate the lab. The students strive to enhance science education within and around the UGA community through their scientific endeavors. The lab also is leading the way in developing a Small Satellite Course that will form the foundation of an aerospace-based curriculum at UGA.
+            </p>
+            <a href="www.smallsat.uga.edu">
+                Learn more about the lab
+            </a>
+        </div>
         <div >
             <p><h2><strong>Contact: </strong></h2>James Roach (770) - 845 - 4787</p>
         </div>
