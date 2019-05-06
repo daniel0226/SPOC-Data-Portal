@@ -18,11 +18,14 @@
             </p>
         </div>
         <div >
-            <h2></h2>
+            <p><h2><strong>Contact: </strong></h2>James Roach (770) - 845 - 4787</p>
         </div>
-        <div >
-            <p><strong>Contact: </strong>James Roach (770) - 845 - 4787</p>
+        <div id="about-imgs">
+            <img src="../img/unp_logo.png"/>
+            <img src="../img/nasa_logo.png"/>
+            <img src="../img/air_force_logo.png"/>
         </div>
+
     </div>
 </div>
 

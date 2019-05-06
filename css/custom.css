@@ -93,10 +93,8 @@ body{
 /* ~~~ AboutUs.php ~~~ */
 .containerAboutUs{
 	margin-top: 5%;
-	margin-left: 6%;
-	margin-right: 6%;
-	background-color: lightgray;
-	border-radius: 5px;
+	margin-left: 12%;
+	margin-right: 12%;
 	overflow: auto;
 	padding: 10px;
 }
@@ -106,8 +104,11 @@ body{
 }
 
 .containerAboutUs > div > h1, .containerAboutUs > div > h2, .containerAboutUs > div > p{
-	float: left;
 	text-align: left;
+}
+
+#about-imgs > img{
+	width: 32.5%;
 }
 
 /* ~~~ Login.php ~~~ */
