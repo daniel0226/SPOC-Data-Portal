@@ -63,7 +63,6 @@
         </div>
     </nav>
 <div  id="map-div"></div>
-<div> MAP </div>
 <h3 id="pass-title" class="title-3 text-center">UGA Ground Station Passes</h3>
 <div id="passes">
 </div>
