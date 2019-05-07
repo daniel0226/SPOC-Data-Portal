@@ -28,7 +28,7 @@ create table blog_posts(
 	id int auto_increment not null,
 	post_title varchar(128) not null,
 	post_date varchar(256) not null,
-	post_text varchar(16384),
+	post_text varchar(16383),
 
 	primary key(id)
 );

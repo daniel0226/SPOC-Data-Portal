@@ -7,8 +7,8 @@
 
     <?php
         $DB_SERVER = 'localhost:3306';
-        $DB_USERNAME = 'root';
-        $DB_PASSWORD = '1234';
+        $DB_USERNAME = 'Test';
+        $DB_PASSWORD = '200149907Dk!';
         $DB_DATABASE = 'termproject';
         $db = mysqli_connect($DB_SERVER,$DB_USERNAME,$DB_PASSWORD,$DB_DATABASE);
         $ArchiveDB = "SELECT * FROM archive_links";

@@ -1,5 +1,5 @@
 #this script populates the database
-insert into users (username, password, enabled, email) values ('user', '1234', true, "jhroach14@gmail.com");
+insert into users (username, password, enabled, email) values ('admin', '12345', true, "batehampandora@gmail.com");
 
 insert into photos (photo_path, photo_text) values ("../img/pic1.jpg", "Hyper Spectral Image 1");
 insert into photos (photo_path, photo_text) values ("../img/pic2.jpg", "Hyper Spectral Image 2");
